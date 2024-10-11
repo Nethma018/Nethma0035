@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.loginBox{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(26, 25, 25, 0.1);
+    text-align: center;
+    width: 600px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*------- Button Css Part --------*/
+button {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 20px;
+    margin: 20px;
+  }
+  
+  button:hover {
+    background: #40b8e0;
+    color: white;
+  }
+  
